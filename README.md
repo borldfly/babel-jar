@@ -30,4 +30,5 @@ scripts: {
     "build": "babel src -d dist"
 }
 
-解决每次提交都要输入账号密码的问题  git config  credential.helper store
+解决每次提交都要输入账号密码的问题(如果加了global则表示所有仓库都不用在提交前输入账号密码)  
+git config credential.helper store [--global]

@@ -34,6 +34,7 @@ scripts: {
 git config credential.helper store [--global]
 
 修改git历史提交注释信息
+
 1.查看历史提交记录
 git log --pretty=oneline
 

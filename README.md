@@ -29,3 +29,5 @@ babel src --out-dir dist
 scripts: {
     "build": "babel src -d dist"
 }
+
+解决每次提交都要输入账号密码的问题  git config  credential.helper store
